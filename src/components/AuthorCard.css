@@ -1,0 +1,24 @@
+.authors{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.author-card{
+    height: 220px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.author-card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}

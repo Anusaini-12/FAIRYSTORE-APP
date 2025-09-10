@@ -1,0 +1,100 @@
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.results{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 2rem;
+}
+
+.book{
+    min-height: 500px;
+    width: 320px;
+    /* border: 1px solid #94B4C1; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    transition: transform 0.2s ease;
+}
+
+.book:hover {
+  transform: scale(1.03);
+}
+
+.book img{
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px
+}
+
+.book-info{
+    margin-top: 12px;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.back-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #94B4C1;
+    background-color: transparent;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    position: fixed;
+}
+
+.back-btn:hover{
+    background-color: rgb(39, 55, 77);
+    color: white;
+    border: rgb(39, 55, 77);
+}
+
+.foot {
+  margin-top: auto; 
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+}
