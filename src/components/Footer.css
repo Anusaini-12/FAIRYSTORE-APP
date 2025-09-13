@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     background-color: rgb(39, 55, 77);
+    /* background: #213555; */
     color: white;
     text-align: center;
     border-top: 1px solid lightgrey;
@@ -12,8 +13,6 @@
     font-size: 14px;
     gap: 0.5rem;
     padding: 1rem 0;
-    /* position: fixed;
-    bottom: 0; */
 }
 
 .footer-links{
@@ -22,13 +21,13 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    gap: 1rem;
+    /* gap: 1rem; */
     
 }
 
 .footer a{
     /* width: 50px; */
-    padding: 12px;
+    padding: 6px 12px;
     text-decoration: none;
     color: white;
 }

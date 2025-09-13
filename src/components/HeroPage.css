@@ -20,7 +20,7 @@
 }
 
 .hero-banner .hero-content{
-      font-family: "Nunito";
+   font-family: "Nunito", sans-serif;
       font-size: 30px;
 }
 .cta-btn{

@@ -5,6 +5,7 @@ import nonFiction from "../assets/books_category/Non-Fiction.png";
 import educational from "../assets/books_category/education.png";
 import kids from "../assets/books_category/kids.jpeg";
 import religious from "../assets/books_category/religious.jpg";
+import Navbar from "./Navbar";
 
 
 export default function Categories(){
@@ -20,6 +21,7 @@ export default function Categories(){
 
     return(
         <>
+        <Navbar />
         <h2 className="heading-name">Featured Categories</h2>
         <div className="cards-track">
            <div className="categories">

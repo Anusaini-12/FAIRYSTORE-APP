@@ -4,21 +4,19 @@ import { handleSearch } from "../js/search";
 
 export default function SearchBook(){
 
-    let API = "https://openlibrary.org/search.json";
-
     const [searchQuery, setSearchQuery] = useState("");
     const navigate = useNavigate();
     // const [books, setBooks] = useState([]);
     
-    
-  const handleInputChange = (e) => setSearchQuery(e.target.value);
+    const handleInputChange = (e) => {
+      setSearchQuery(e.target.value);
+    }
 
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
+    const handleKeyDown = (e) => {
+      if (e.key === "Enter") {
       handleSearch(searchQuery, navigate, setSearchQuery);
     }
   };
-
 
     return(
         <>
@@ -32,12 +30,11 @@ export default function SearchBook(){
                  />
                  <button 
                  id="search-btn"
-                  onClick={() => handleSearch(searchQuery, navigate, setSearchQuery)}
+                 onClick={() => handleSearch(searchQuery, navigate, setSearchQuery)}
                  >
                  <i className="fa-solid fa-magnifying-glass"></i>
                  </button>
           </div>
-          {/* <SearchResults bookDetail={books}/> */}
         </>
     )
 }

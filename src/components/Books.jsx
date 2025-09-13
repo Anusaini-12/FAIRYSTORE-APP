@@ -21,7 +21,11 @@ export default function Books(){
         <h2 className="heading-name">Popular Books</h2>
         <div className="books">
            {allBooks.map((book, idx) => (
-             <BookCard key={idx} bookname={book.bookname} book={book.book} price={book.price}/>
+             <BookCard 
+             key={idx} 
+             bookname={book.bookname} 
+             book={book.book} 
+             price={book.price}/>
            ))}
         </div>
         </>
