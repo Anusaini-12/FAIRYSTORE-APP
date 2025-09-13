@@ -1,6 +1,6 @@
 .error-page {
     width: 100%;  
-    min-height: 73vh;
+/*     min-height: 73vh; */
     text-align: center;
     display: flex;
     flex-direction: column;
