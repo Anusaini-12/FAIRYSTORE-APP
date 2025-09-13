@@ -14,7 +14,7 @@ const NotFoundPage = () => {
       <p >Try searching again.</p>
     </div>
 
-    <Footer />
+{/*     <Footer /> */}
     </>
   )
 }
